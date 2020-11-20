@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* CONTACT*/   
+.contact textarea{
+  width: 100%!important;
+}
+
+.loadingBtn{
+  border-color:gray;
+  background-color: #616161;
+  cursor: not-allowed!important;
+}
+
+
+/* ALERT MESSAGE */
+.alert{
+  padding: 5px 15px;
+  width: 600px;
+  background-color:transparent;
+  border-radius: 3px;
+  margin: 1em 0;
+  font-family: "Gothic720 BT";
+  outline:none;
+}
+
+.alert--success{
+  background:#0e8847;
+}
+.alert--error{  
+  background-color:#da4a4a;
+}
